@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">Submission4 - Katalog Film TV</string>
+    <string name="film_title">Judul Film</string>
+    <string name="film_overview">Overview Film</string>
+    <string name="txt_movie_title">Movie Title</string>
+    <string name="txt_release_date">Release Date</string>
+    <string name="txt_duration">Duration</string>
+    <string name="txt_language">Language</string>
+    <string name="txt_user_score">User Score</string>
+    <string name="txt_rating">Rating</string>
+    <string name="txt_revenue">Revenue</string>
+    <string name="txt_genre">Genre</string>
+    <string name="txt_overview">Overview</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="toast_text">You choose</string>
+    <string name="txt_popularity">Popularity</string>
+    <string name="txt_vote_count">Vote Count</string>
+    <string name="txt_vote_average">Vote Average</string>
+    <string name="txt_tv_show_title">Tv Show Title</string>
+    <string name="txt_tv_show_country">Origin Country</string>
+    <string name="txt_movies">MOVIES</string>
+    <string name="txt_tv_shows">TV SHOWS</string>
+    <string name="ini_adalah_foto">This is a photo</string>
+    <string name="favorite">Favorite</string>
+
+    <!--TODO DATA FILM-->
+
+    <string-array name="data_photo_film">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_preman</item>
+    </string-array>
+
+    <string-array name="data_title_film">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Deadpool</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Preman Pensiun</item>
+    </string-array>
+
+    <string-array name="data_release_date_film">
+        <item>October 3, 2018</item>
+        <item>December 7, 2018</item>
+        <item>April 25, 2018</item>
+        <item>December 13, 2018</item>
+        <item>October 24, 2018</item>
+        <item>December 15, 2018</item>
+        <item>November 21, 2018</item>
+        <item>February 9, 2016</item>
+        <item>January 3, 2019</item>
+        <item>January 17, 2019</item>
+    </string-array>
+
+    <string-array name="data_duration_film">
+        <item>2h 15m</item>
+        <item>2h 24m</item>
+        <item>2h 29m</item>
+        <item>2h 4m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 10m</item>
+        <item>1h 48m</item>
+        <item>1h 44m</item>
+        <item>1h 34m</item>
+    </string-array>
+
+    <string-array name="data_language_film">
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>INDONESIAN</item>
+    </string-array>
+
+    <string-array name="data_user_score_film">
+        <item>75%</item>
+        <item>68%</item>
+        <item>83%</item>
+        <item>70%</item>
+        <item>81%</item>
+        <item>65%</item>
+        <item>67%</item>
+        <item>76%</item>
+        <item>77%</item>
+        <item>65%</item>
+    </string-array>
+
+    <string-array name="data_rating_film">
+        <item>7.7</item>
+        <item>7.1</item>
+        <item>8.5</item>
+        <item>6.6</item>
+        <item>8.0</item>
+        <item>6.8</item>
+        <item>7.6</item>
+        <item>8.0</item>
+        <item>7.5</item>
+        <item>7.9</item>
+    </string-array>
+
+    <string-array name="data_revenue_film">
+        <item>$433M</item>
+        <item>$1B</item>
+        <item>$2B</item>
+        <item>$19M</item>
+        <item>$894M</item>
+        <item>$465M</item>
+        <item>$137M</item>
+        <item>$783M</item>
+        <item>$517M</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_genre_film">
+        <item>Drama, Romance, Music</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Adventure, Action, Science Fiction</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Music</item>
+        <item>Action, Adventure, Science Fiction</item>
+        <item>Drama</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Animation, Family, Adventure</item>
+        <item>Comedy, Drama</item>
+    </string-array>
+
+    <string-array name="data_overview_film">
+        <item>Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally\'s career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \'n\' roll band Queen in 1970. Hit songs become instant classics. When Mercury\'s increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
+        <item>Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>After three years, the business of Muslihat (Epi Kusnandar), who has retired as a thug, has a problem. Sales decline. Muslihat also faces new problems when Safira (Safira Maharani), her only daughter, grows up in adolescence and begins to be visited by boys. A bigger problem: frictions between his former subordinates.</item>
+    </string-array>
+
+    <!--TODO DATA TV SHOWS-->
+
+    <string-array name="data_photo_tv">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_supergirl</item>
+    </string-array>
+
+    <string-array name="data_title_tv">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>Family Guy</item>
+        <item>The Flash</item>
+        <item>Iron Fist</item>
+        <item>Naruto Shippūden</item>
+        <item>NCIS</item>
+        <item>Supergirl</item>
+    </string-array>
+
+
+    <string-array name="data_release_date_tv">
+        <item>October 10, 2012</item>
+        <item>February 15, 2019</item>
+        <item>February 26, 1986</item>
+        <item>October 12, 2009</item>
+        <item>January 31, 1999</item>
+        <item>October 7, 2014</item>
+        <item>March 17, 2017</item>
+        <item>February 15, 2007</item>
+        <item>September 23, 2003</item>
+        <item>October 26, 2015</item>
+    </string-array>
+
+    <string-array name="data_duration_tv">
+        <item>42m</item>
+        <item>60m</item>
+        <item>25m</item>
+        <item>25m</item>
+        <item>22m</item>
+        <item>44m</item>
+        <item>55m</item>
+        <item>22m</item>
+        <item>45m</item>
+        <item>42m</item>
+    </string-array>
+
+    <string-array name="data_language_tv">
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>JAPANESE</item>
+        <item>JAPANESE</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+        <item>JAPANESE</item>
+        <item>ENGLISH</item>
+        <item>ENGLISH</item>
+    </string-array>
+
+    <string-array name="data_user_score_tv">
+        <item>58%</item>
+        <item>63%</item>
+        <item>70%</item>
+        <item>64%</item>
+        <item>65%</item>
+        <item>66%</item>
+        <item>61%</item>
+        <item>76%</item>
+        <item>67%</item>
+        <item>58%</item>
+    </string-array>
+
+    <string-array name="data_rating_tv">
+        <item>7.6</item>
+        <item>8.1</item>
+        <item>8.5</item>
+        <item>8.0</item>
+        <item>8.1</item>
+        <item>7.8</item>
+        <item>6.6</item>
+        <item>8.5</item>
+        <item>7.8</item>
+        <item>6.4</item>
+    </string-array>
+
+    <string-array name="data_revenue_tv">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="data_genre_tv">
+        <item>Crime, Drama, Mystery, Action &amp; Adventure</item>
+        <item>Sci-Fi &amp; Fantasy, Action &amp; Adventure</item>
+        <item>Comedy, Sci-Fi &amp; Fantasy, Animation, Action &amp; Adventure</item>
+        <item>Action &amp; Adventure, Animation, Comedy, Sci-Fi &amp; Fantasy</item>
+        <item>Animation, Comedy</item>
+        <item>Drama, Sci-Fi &amp; Fantasy</item>
+        <item>Action &amp; Adventure, Crime, Drama,  Sci-Fi &amp; Fantasy</item>
+        <item>Animation, Comedy, Drama</item>
+        <item>Action &amp; Adventure, Crime, Drama</item>
+        <item>Action, Adventure, Drama, Science Fiction</item>
+    </string-array>
+
+    <string-array name="data_overview_tv">
+        <item>Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.</item>
+        <item>The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.</item>
+        <item>Long ago in the mountains, a fighting master known as Gohan discovered a strange boy whom he named Goku. Gohan raised him and trained Goku in martial arts until he died. The young and very strong boy was on his own, but easily managed. Then one day, Goku met a teenage girl named Bulma, whose search for the dragon balls brought her to Goku\'s home. Together, they set off to find all seven dragon balls in an adventure.</item>
+        <item>Lucy is a 17-year-old girl, who wants to be a full-fledged mage. One day when visiting Harujion Town, she meets Natsu, a young man who gets sick easily by any type of transportation. But Natsu isn\'t just any ordinary kid, he\'s a member of one of the world\'s most infamous mage guilds: Fairy Tail.</item>
+        <item>Sick, twisted, politically incorrect and Freakin\' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he\'s not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.</item>
+        <item>After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only "meta-human" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won\'t be long before the world learns what Barry Allen has become...The Flash.</item>
+        <item>Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.</item>
+        <item>Naruto Shippuuden is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Orochimaru. After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work, though it will not be easy, as He has amassed a few (more dangerous) enemies, in the likes of the shinobi organization; Akatsuki.</item>
+        <item>From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.</item>
+        <item>Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism.</item>
+    </string-array>
+
+</resources>
